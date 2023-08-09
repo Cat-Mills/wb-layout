@@ -1,0 +1,137 @@
+html {
+    font-family: 'D-DIN', sans-serif;
+    font-family: 'D-DIN Condensed', sans-serif;
+    font-family: 'D-DIN Exp', sans-serif;
+    color:white;
+
+}
+header {
+    position: fixed;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    /* height: 50px; */
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 30px;
+
+}
+
+#wrapper {
+    display: block;
+    background-color: black;
+}
+logo {
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;
+}
+tabs {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#shop {
+    display: flex;
+    /* width: 10vw; */
+    padding-left: 50px;
+    justify-content: flex-end;
+}
+#menu {
+    display: flex;
+    height: 16px;
+    width: 16px;
+    justify-content: flex-end;
+    padding-left: 20px;
+
+}
+section {
+    box-sizing: border-box;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-left: 40px;
+}
+
+
+#one {
+    display: flex;
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Starlink_G6_20_Streak_3883_Desktop_2a27c7c2d3.jpg");
+    background-size: cover;
+    background-position: center
+    center;
+}
+#two {
+    display: flex;
+    background-image: url("https://images-ext-1.discordapp.net/external/yTmOAEyvmhg7AyTnw3Xw_oYh5lS1xqEjWacDUdA-2f8/https/sxcontent9668.azureedge.us/cms-assets/assets/Star6_8_DSC_6243_desktop_fab8367da5.jpg?width=1440&height=665");
+    background-size: cover;
+    background-position: center
+    center;
+}
+#three {
+    display: flex;
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Galaxy37_outsidesouthtwr_IMG_3067_desktop_7795e60faa.jpg");
+    background-size: cover;
+    background-position: center
+    center;
+}
+#four {
+    display: flex;
+    background-image: url("https://images-ext-1.discordapp.net/external/1umj8LMt-d07sFGIBMuO1eG7PLzaphTg6c-zGkolKZc/https/sxcontent9668.azureedge.us/cms-assets/assets/Jup3_Echo24_outsidebeachh_IMG_0087_desktop_8f619083ab.jpg?width=1440&height=665");
+    background-size: cover;
+    background-position: center
+    center;
+}
+#five {
+    display: flex;
+    background-image: url("https://images-ext-2.discordapp.net/external/QhQm-05P-c6d2HBaWLs17xIY5CdTN48gS2p0F3IqF-g/https/sxcontent9668.azureedge.us/cms-assets/assets/STARSHIP_Testflight_DESKTOP_2b3bea613a.jpg?width=1440&height=665");
+    background-size: cover;
+    background-position: center
+    center;
+}
+.rewatch {
+    display: flex;
+    border: 2px solid white;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: center;
+    font-size: 12px;
+}
+h1 {
+    display: flex;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+h2 {
+    display: flex;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+footer {
+    flex-direction: column;
+    box-sizing: border-box;
+    display: flex;
+    background-color: black;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+h4 {
+    display: block;
+    word-spacing: 40px;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#spacex {
+    font-weight: normal;
+    word-spacing: 2px;
+}
